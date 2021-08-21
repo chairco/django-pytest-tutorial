@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+pytest = "*"
+pytest-django = "*"
+dj-static = "*"
+psycopg2 = "*"
+django-allauth = "*"
+djangorestframework = "*"
+django-environ = "*"
+dj-database-url = "*"
+django-cors-headers = "*"
+drf-yasg = "*"
+django-compressor = "*"
+django-crispy-forms = "*"
+django-bootstrap4 = "*"
+
+[requires]
+python_version = "3.8"
